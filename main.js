@@ -4,7 +4,6 @@ const client = new Discord.Client();
 client.login('YOUR_TOKEN_HERE');
 
 function status() {
-
     const mcIP = 'YOUR_SERVER_IP'; // Ex: hypixel.net
     var mcPort = YOUR_SERVER_PORT; // Ex: 25565
     var url = 'http://mcapi.us/server/status?ip=' + mcIP + '&port=' + mcPort;
